@@ -1,0 +1,29 @@
+<p>distancia works!</p>
+
+<div>
+  <h1>Distancia entre 2 puntos</h1>
+  <form [formGroup]="formulario">
+    <div>
+      <label for="">Posición X del primer número: </label>
+      <input formControlName="numero1" type="text">
+    </div>
+    <br>
+    <div>
+      <label for="">Posición Y del primer número: </label>
+      <input formControlName="numero3" type="text">
+    </div>
+    <br>
+    <div>
+      <label for="">Posición X del segundo número: </label>
+      <input formControlName="numero2" type="text">
+    </div>
+    <br>
+    <div>
+      <label for="">Posición Y del segundo número: </label>
+      <input formControlName="numero4" type="text">
+    </div>
+    <br>
+    <button (click)="multNumeros()" type="submit">Calcular</button>
+    <h1>Resultado {{resultado}}</h1>
+  </form>
+</div>

@@ -1,0 +1,21 @@
+<p>axb works!</p>
+
+<div class="container mt-5">
+    <div class="row g-5">
+        <h1>MULTIPLICACIÓN A * B</h1>
+        <form [formGroup]="axb">
+            <div>
+            <label for="">Número 1</label>
+            <input formControlName="aNum" type="number">
+            </div>
+            <br>
+            <div>
+            <label for="">Número 2</label>
+            <input formControlName="bNum" type="number">
+            </div>
+           
+            <button (click)="papu()" type="submit">Calcular</button>
+            <h1>Resultado: {{resultado}}</h1>
+        </form>
+    </div>
+</div>
