@@ -11,8 +11,6 @@ export class Distancia {
     const distanciaX = this.x2 - this.x1;
     const distanciaY = this.y2 - this.y1;
     const distanciaCuadrado = ((distanciaX * distanciaX) + (distanciaY * distanciaY));
-    this.distanciaFinal = Math.sqrt(distanciaCuadrado);
-    
+    this.distanciaFinal = Math.sqrt(distanciaCuadrado); 
   }
-
 }
