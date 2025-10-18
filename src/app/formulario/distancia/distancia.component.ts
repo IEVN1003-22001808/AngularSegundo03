@@ -1,10 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { Distancia } from './distancia';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-distancia',
-  imports: [FormsModule, ReactiveFormsModule],
+  standalone: true,
+  imports: [FormsModule, ReactiveFormsModule, CommonModule],
   templateUrl: './distancia.component.html',
   styleUrl: './distancia.component.css'
 })
