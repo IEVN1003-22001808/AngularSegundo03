@@ -2,3 +2,7 @@
 @import "tailwindcss";
 
 @import "flowbite/src/themes/default";
+
+input {
+    color: #000000; /* Fuerza el color del texto a negro */
+}

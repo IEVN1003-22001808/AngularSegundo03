@@ -3,14 +3,13 @@ import { RouterOutlet } from '@angular/router';
 import { DistanciaComponent } from './formulario/distancia/distancia.component';
 import { ZodiacoComponent } from './formulario/zodiaco/zodiaco.component';
 import { AxbComponent } from './formulario/axb/axb.component';
-import { TempComponent } from './tem/temp/temp.component';
-
 import { initFlowbite } from 'flowbite';
 import { NavbarComponent } from './navbar/navbar.component';
+import { TemhComponent } from './tem/temh/temh.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, DistanciaComponent, ZodiacoComponent, AxbComponent, NavbarComponent, TempComponent],
+  imports: [RouterOutlet, DistanciaComponent, ZodiacoComponent, AxbComponent, NavbarComponent, TemhComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
